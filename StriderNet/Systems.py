@@ -173,3 +173,7 @@ def lennard_jones(species,
         return torch.sum(Node_energy_fn(R))*0.5
     return Disp_Vec_fn,pair_dist_fn,Node_energy_fn,Total_energy_fn,displacement_fn, shift_fn ,pair_cutoffs,pair_sigma,pair_epsilon
     
+
+def Ising()
+    
+    
